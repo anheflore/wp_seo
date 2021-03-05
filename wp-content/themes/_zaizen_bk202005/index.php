@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php get_header();
+var_dump("this is zaizen theme" . $theme_name);
+exit(1);
+
+?>
 
 <body>
   <div id="container" class="container">

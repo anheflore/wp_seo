@@ -5,7 +5,8 @@
  */
 get_header();
 $theme_name = wp_get_theme();
-echo("this is test" . $theme_name);
+var_dump("this is official theme" . $theme_name);
+exit(1);
 
 ?>
 

@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php get_header();
+$theme_name = wp_get_theme();
+var_dump("this is ba_zaizen theme" . $theme_name);
+exit(1);
+
+?>
 
 <body>
   <div id="container" class="container">

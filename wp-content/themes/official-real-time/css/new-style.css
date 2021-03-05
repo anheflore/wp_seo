@@ -1,0 +1,242 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@charset "UTF-8";
+
+
+header{
+	background-color: #13A3C3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header .right a{
+	color: #fff;
+}
+
+.main-content{
+	background-color: #F0F0F0;
+	padding-bottom:50px;
+}
+
+.money-title{
+	font-family: YuGothic;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 42px;
+	text-align: left;
+	color: #000;
+	border-bottom: 3px #000 solid;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+.chart-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.chart-content .left{
+	width: 48%;
+} 
+.chart-content .right{
+	width: 48%;
+} 
+
+
+.round1{
+	width: 422px;
+	height: 422px;
+	background: #ffb44e;
+	border-radius: 50%;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+	line-height:70px;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+.round2{
+	width: 273px;
+	height: 273px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 2;
+	position: relative;
+	left: 75px;
+}
+
+.round2-txt1{
+	text-align: center;
+	color: #000;
+	font-size:4rem;
+	line-height:2;
+	padding-top: 80px;
+}
+
+
+.round2-txt2{
+	text-align: center;
+	color: #000;
+	line-height:1;
+}
+
+.token-txt1{
+	font-family: YuGothic;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	margin-top: 20px;
+}
+
+.token-txt2{
+	font-family: YuGothic;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	color: #000;
+	margin-top: 20px;
+
+}
+.money-box{
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom:30px;
+}
+
+.money-box-txt{
+	padding:20px 20px 20px 20px;
+	font-weight: bold;
+}
+
+.money-box-head{
+	border-radius: 10px 10px 0px 0px;
+	background: #1071ad;
+	color: #fff;
+	padding:10px 0 10px 20px;
+}
+
+.right-head{
+	background-color: #14C69D;
+}
+
+.umekomi-content{
+	padding-top: 50px;
+}
+
+
+iframe{
+	height: 700px;
+}
+
+@media screen and (max-width:749px) { 
+
+header{
+	background-color: #13A3C3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+	.chart-content{
+		display: block;
+	}
+
+	.chart-content .left{
+		width: 100%;
+	} 
+	.chart-content .right{
+		width: 100%;
+		margin-top: 50px;
+	} 
+
+
+	.round1{
+		width: 350px;
+		height: 350px;
+		background: #ffb44e;
+		border-radius: 50%;
+		z-index: 1;
+		display: inline-block;
+		text-align: center;
+		line-height:70px;
+		font-size: 2rem;
+		color: #fff;
+		font-weight: bold;
+		margin-left: 2%;
+	}
+
+	.round2{
+		width: 250px;
+		height: 250px;
+		background: #fff;
+		border-radius: 50%;
+		z-index: 2;
+		position: relative;
+		left: 50px;
+		margin-top: -30px;
+
+	}
+
+	.round2-txt1{
+		text-align: center;
+		color: #000;
+		font-size:4rem;
+		line-height:2;
+		padding-top: 80px;
+	}
+
+
+	.round2-txt2{
+		text-align: center;
+		color: #000;
+		line-height:1;
+	}
+
+	.token-txt1{
+		font-family: YuGothic;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
+		color: #000;
+		margin-top: 15px;
+	}
+
+	.token-txt2{
+		font-family: YuGothic;
+		font-weight: bold;
+		font-size: 42px;
+		text-align: center;
+		color: #000;
+		margin-top: 20px;
+
+	}
+
+.money-box-txt{
+	padding:20px 20px 20px 20px;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.money-box-head{
+	border-radius: 10px 10px 0px 0px;
+	background: #1071ad;
+	color: #fff;
+	padding:10px 0 10px 20px;
+	font-size: 2rem;
+}
+}
+
+

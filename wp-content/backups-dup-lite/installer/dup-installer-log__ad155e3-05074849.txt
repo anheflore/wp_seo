@@ -1,0 +1,507 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:11:04
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.15                                |7.3.15
+OS__________________: FreeBSD                               |WINNT
+CREATED_____________: 2021-03-05 07:48:49
+WP VERSION__________: 5.3.6
+DUP VERSION_________: 1.4.0
+DB__________________: 5.7.32
+DB TABLES___________: 20
+DB ROWS_____________: 14,352
+DB FILE SIZE________: 5.81MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.15 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.15
+DOC ROOT____________: "D:/xampp/htdocs/denwauranai"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/denwauranai/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/xampp/htdocs/denwauranai/20210305_e5bd93e3819fe3828be381a8e8a9b1e_[HASH]_20210305074849_archive.zip"
+SIZE________________: 159.81MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/xampp/htdocs/denwauranai/20210305_e5bd93e3819fe3828be381a8e8a9b1e_[HASH]_20210305074849_archive.zip"
+SIZE________________: 159.81MBFile timestamp set to Current: 2021-03-05 08:11:09
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:11:09 - RUNTIME: 5.1613 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:12:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 5.7.32
+FILE SIZE:	dup-database__[HASH].sql (4.46MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/xampp/htdocs/denwauranai/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	188
+
+wp07fed2commentmeta: (0)
+wp07fed2comments: (1)
+wp07fed2duplicator_packages: (0)
+wp07fed2ewwwio_images: (1057)
+wp07fed2ewwwio_queue: (0)
+wp07fed2links: (0)
+wp07fed2options: (264)
+wp07fed2postmeta: (11958)
+wp07fed2posts: (712)
+wp07fed2redirection_404: (0)
+wp07fed2redirection_groups: (4)
+wp07fed2redirection_items: (181)
+wp07fed2redirection_logs: (0)
+wp07fed2term_relationships: (70)
+wp07fed2term_taxonomy: (13)
+wp07fed2termmeta: (0)
+wp07fed2terms: (13)
+wp07fed2termsmeta: (4)
+wp07fed2usermeta: (81)
+wp07fed2users: (3)
+Removed '68' cache/transient rows
+
+INSERT DATA RUNTIME: 2.3277 sec.
+STEP-2 COMPLETE @ 08:12:06 - RUNTIME: 2.3658 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:12:15
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "当たると話題の電話占いを徹底比較"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/wheatlizard4/www/wp"
+path_new______________: "D:/xampp/htdocs/denwauranai"
+siteurl_______________: "http://localhost/denwauranai"
+url_old_______________: "https://denwauranai-osusume.com"
+url_new_______________: "http://localhost/denwauranai"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp07fed2commentmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2comments"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2duplicator_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2ewwwio_images"___________________________[ROWS:  1057][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2ewwwio_queue"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2links"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2options"_________________________________[ROWS:   264][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2postmeta"________________________________[ROWS: 11958][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2posts"___________________________________[ROWS:   712][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2redirection_404"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2redirection_groups"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2redirection_items"_______________________[ROWS:   181][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2redirection_logs"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2term_relationships"______________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2term_taxonomy"___________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2termmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp07fed2terms"___________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2termsmeta"_______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2usermeta"________________________________[ROWS:    81][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+
+EVALUATE TABLE: "wp07fed2users"___________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/wheatlizard4/www/wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  2:"\/home\/wheatlizard4\/www\/wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  3:"%2Fhome%2Fwheatlizard4%2Fwww%2Fwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  4:"\home\wheatlizard4\www\wp" =======================> "D:/xampp/htdocs/denwauranai"
+	SEARCH  5:"\\home\\wheatlizard4\\www\\wp" ===================> "D:\/xampp\/htdocs\/denwauranai"
+	SEARCH  6:"%5Chome%5Cwheatlizard4%5Cwww%5Cwp" ===============> "D%3A%2Fxampp%2Fhtdocs%2Fdenwauranai"
+	SEARCH  7:"//denwauranai-osusume.com" =======================> "//localhost/denwauranai"
+	SEARCH  8:"\/\/denwauranai-osusume.com" =====================> "\/\/localhost\/denwauranai"
+	SEARCH  9:"%2F%2Fdenwauranai-osusume.com" ===================> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 10:"//www.denwauranai-osusume.com" ===================> "//localhost/denwauranai"
+	SEARCH 11:"\/\/www.denwauranai-osusume.com" =================> "\/\/localhost\/denwauranai"
+	SEARCH 12:"%2F%2Fwww.denwauranai-osusume.com" ===============> "%2F%2Flocalhost%2Fdenwauranai"
+	SEARCH 13:"https://localhost/denwauranai" ===================> "http://localhost/denwauranai"
+	SEARCH 14:"https:\/\/localhost\/denwauranai" ================> "http:\/\/localhost\/denwauranai"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdenwauranai" ===========> "http%3A%2F%2Flocalhost%2Fdenwauranai"
+--------------------------------------
+SCANNED:	Tables:20 	|	 Rows:14361 	|	 Cells:84583 
+UPDATED:	Tables:5 	|	 Rows:1095 	|	 Cells:1142 
+ERRORS:		0 
+RUNTIME:	0.351900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+MEDIA SETTINGS NOTICE: The table 'wp07fed2options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:12:15 - RUNTIME: 0.4102 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Media settings notice
+	SECTIONS: general
+	LONG MSG: MEDIA SETTINGS NOTICE: The table 'wp07fed2options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+====================================

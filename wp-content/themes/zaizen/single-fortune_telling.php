@@ -35,8 +35,10 @@
                   <div class="main__telling__detail__tt">
                     <h2>
                       <time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('Y/m.d') ?></time>
-                      <em><?php the_title() ?></em>
                     </h2>
+                    <h1>  
+                      <em><?php the_title() ?></em>
+                    </h1>
                   </div>
 
                   <?php the_content(); ?>

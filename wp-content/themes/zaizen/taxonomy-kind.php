@@ -1,3 +1,16 @@
+<?php
+  global $wp;
+  $relativePath = wp_make_link_relative((home_url( $wp->request )));
+  $index = strpos($relativePath, 'column/survey');
+  $columnSubpagePrefix = "";
+
+  if ($index >= 0 && (strlen($relativePath) > $index + strlen('column/survey') + 1) ) {
+    $relativePath = trim(substr($relativePath, $index + strlen('column/survey',)), '/');
+    $columnSubpagePrefix = '-' . implode('', explode('/', $relativePath));
+  }
+
+?>
+
 <?php get_header(); ?>
 
 <body>
@@ -7,7 +20,7 @@
       <div class="ttl" id="ttl">
         <div class="row">
       <?php $tax = $wp_query->get_queried_object();?>
-          <h1><?php echo $tax->name; ?></h1>
+          <h1><?php echo $tax->name . $columnSubpagePrefix; ?></h1>
         </div>
       </div>
       <?php get_template_part('templates/templates','menu') ?>

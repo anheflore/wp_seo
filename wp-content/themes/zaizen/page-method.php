@@ -6,7 +6,7 @@
       <?php get_template_part('templates/templates','header') ?>
       <div class="ttl" id="ttl">
         <div class="row">
-          <h2>調査方法</h2>
+          <h1>調査方法</h1>
         </div>
       </div>
       <?php get_template_part('templates/templates','menu') ?>

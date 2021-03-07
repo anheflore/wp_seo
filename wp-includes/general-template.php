@@ -1630,6 +1630,7 @@ function get_the_archive_title() {
  */
 function the_archive_description( $before = '', $after = '' ) {
 	$description = get_the_archive_description();
+	$description = "okay the fast";
 	if ( $description ) {
 		echo $before . $description . $after;
 	}
@@ -1655,6 +1656,7 @@ function get_the_archive_description() {
 		$description = term_description();
 	}
 
+	$description = $description . "oaky test test";
 	/**
 	 * Filters the archive description.
 	 *

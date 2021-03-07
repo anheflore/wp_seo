@@ -4043,7 +4043,7 @@ class All_in_One_SEO_Pack extends All_in_One_SEO_Pack_Module {
 	 * @return mixed|string
 	 */
 	function rewrite_title( $header ) {
-
+		global $aioseop_options;
 		global $wp_query;
 		if ( ! $wp_query ) {
 			$header .= "<!-- AIOSEOP no wp_query found! -->\n";
@@ -4057,7 +4057,25 @@ class All_in_One_SEO_Pack extends All_in_One_SEO_Pack_Module {
 			wp_reset_query();
 		}
 
+		//////    changed for custom title for /column/page/... type pages
 		$title = $this->wp_title();
+
+		$relativeUrl = $this->aiosp_mrt_get_url( $wp_query );
+		if  ( strpos($relativeUrl, home_url() . '/column') !== false && strpos($relativeUrl, '/page/') !== false) {
+			// in this case 
+			$relativePath = rtrim(wp_make_link_relative($relativeUrl), '/');
+			$arrayStepPath = explode('/', $relativePath);
+			$index = array_search('page', $arrayStepPath);
+			if ($index < 0) {}
+			else {
+			  $arrayColumnPath = array_slice($arrayStepPath, $index, );
+			  if (count($arrayColumnPath) == 0) {
+			  } else {
+				$title = $this->get_original_title() . '-' . implode('', $arrayColumnPath) . ' | ' . $aioseop_options['aiosp_home_title'];
+			  }
+			}
+		}
+
 		if ( ! empty( $title ) ) {
 			$header = $this->replace_title( $header, $title );
 		}
@@ -4754,14 +4772,16 @@ class All_in_One_SEO_Pack extends All_in_One_SEO_Pack_Module {
 			$description = str_replace( '%post_month%', get_the_date( 'F' ), $description );
 		}
 
+		if ( $description == '' && $post->post_type == 'column') {
+			$description = "this is test for column";
+		}
 		/*
 		 * This was intended to make attachment descriptions unique if pulling from the parent... let's remove it and see if there are any problems
 		 * on the roadmap is to have a better hierarchy for attachment description pulling
 		 * if ($aioseop_options['aiosp_can']) $description = $this->make_unique_att_desc($description);
 		 */
-		$description = $this->apply_cf_fields( $description );
 
-		/**
+    	 /**
 		 * Runs after applying the formatting for the meta description.
 		 *
 		 * @since 3.0

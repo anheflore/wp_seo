@@ -1,3 +1,20 @@
+<?php
+  global $wp;
+  $relativePath = wp_make_link_relative((home_url( $wp->request )));
+  $arrayStepPath = explode('/', $relativePath);
+  $index = array_search('column', $arrayStepPath);
+  $columnPagePrefix = "";
+  if ($index < 0) {}
+  else {
+    $arrayColumnPath = array_slice($arrayStepPath, $index + 1, );
+    if (count($arrayColumnPath) == 0) {
+    } else {
+      $columnPagePrefix = '-' . implode('', $arrayColumnPath);
+    }
+  }
+?>
+
+
 <?php get_header() ?>
 
 <body>
@@ -6,7 +23,8 @@
       <?php get_template_part('templates/templates','header') ?>
       <div class="ttl" id="ttl">
         <div class="row">
-          <h2>電話占いコラム</h2>
+          <h1>電話占いコラム<?php echo $columnPagePrefix ?>
+              </h1>
         </div>
       </div>
       <?php get_template_part('templates/templates','menu') ?>

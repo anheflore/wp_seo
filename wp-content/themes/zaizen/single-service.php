@@ -7,7 +7,7 @@
         <?php get_template_part('templates/templates','header') ?>
         <div class="ttl" id="ttl">
           <div class="row">
-            <h2>当たる電話占い<?php the_title(); ?></h2>
+            <h1>当たる電話占い<?php the_title(); ?></h1>
           </div>
         </div>
         <?php get_template_part('templates/templates','menu') ?>

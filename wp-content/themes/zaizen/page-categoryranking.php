@@ -14,7 +14,7 @@ Template Name: カテゴリー別ランキング
       <?php get_template_part('templates/templates','header'); ?>
       <div class="ttl" id="ttl">
         <div class="row">
-          <h2>【カテゴリー別】電話占いサイトランキング</h2>
+          <h1>おすすめ電話占いサイトをカテゴリ別にランキングでご紹介</h1>
         </div>
       </div>
       <?php get_template_part('templates/templates','menu'); ?>
